@@ -3,9 +3,9 @@ import java.util.*;
 public class Main {
     public static final Map<Integer, Integer> sizeToFreq = new HashMap<>();
 
-    public static int LENGTH = 100;
-    public static int THREAD_COUNT = 1000;
-    public static String LETTERS = "RLRFR";
+    public static final int LENGTH = 100;
+    public static final int THREAD_COUNT = 1000;
+    public static final String LETTERS = "RLRFR";
 
     public static void main(String[] args) throws InterruptedException {
         List<Thread> threads = new ArrayList<>();
